@@ -1,0 +1,374 @@
+body {
+    text-align: center;
+    padding: 0 3%;
+}
+
+h1 {
+    font-family: 'lato', sans-serif;
+}
+
+.title-text,
+.collab-heading,
+.testimonial-heading,
+.branding-heading,
+.sub-heading {
+    text-align: center;
+}
+
+.title-heading-2,
+.collab-heading,
+.testimonial-heading,
+.branding-heading {
+    font-weight: bolder;
+}
+
+
+/* Title section */
+
+.Company-name {
+    font-size: 32px;
+    text-align: left;
+    margin-left: 80px;
+    padding-top: 4%;
+    color: #1864ff;
+}
+
+.title-pic1,
+.title-pic2 {
+    padding: 35% 0 35% 0;
+    width: 80%;
+    border-radius: 20px;
+}
+
+.title-pic1 {
+    margin-left: 80px;
+    margin-right: 10px;
+    border-radius: 30%;
+}
+
+.title-pic2 {
+    margin-left: 25px;
+    border-radius: 30%;
+}
+
+.title-text {
+    padding: 4% 0 0 0;
+    margin: 0;
+}
+
+.title-heading-1 {
+    color: #FEA9A4;
+    font-size: 65px;
+    font-family: 'inter', sans-serif;
+}
+
+.title-heading-2 {
+    color: #1864ff;
+    font-size: 70px;
+    font-family: 'inter', sans-serif;
+}
+
+.indesign {
+    font-weight: bold;
+    font-size: 19.5px;
+    color: #1864ff;
+}
+
+.title-para {
+    padding: 40px 0 20px 0;
+    font-size: 19.5px;
+    color: #6F8BC7;
+}
+
+.checkbox {
+    border-color: #6F8BC7;
+    line-height: 200%;
+    width: 40%;
+    padding-bottom: 1%;
+}
+
+input::placeholder {
+    color: #6F8BC7;
+    font-family: 'inter', sans-serif;
+    font-size: 15px;
+    padding: 20% 10px 10px 10px;
+}
+
+.btn {
+    -webkit-border-radius: 12;
+    -moz-border-radius: 12;
+    border-radius: 12px;
+    font-family: "lato", sans-serif;
+    color: #ffffff;
+    font-size: 27px;
+    background: #1864ff;
+    padding: 10px 16px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #FEA9A4;
+    text-decoration: none;
+}
+
+.spamfree {
+    padding-top: 5%;
+    font-size: 14px;
+    color: #6F8BC7;
+    font-weight: lighter;
+}
+
+
+/* Collab section */
+
+.collab-heading {
+    color: #1864ff;
+    font-size: 70px;
+    font-family: 'inter', sans-serif;
+    padding: 3% 0;
+}
+
+.collab-heading-1 {
+    color: #FEA9A4;
+    font-size: 65px;
+    font-family: 'inter', sans-serif;
+}
+
+.collab-images {
+    width: 100%;
+}
+
+
+/* Collab image section */
+
+.collab-image-1 {
+    width: 80%;
+    padding-left: 30px;
+}
+
+.collab-image-2 {
+    width: 60%;
+    padding-top: 10%;
+}
+
+.collab-image-3 {
+    width: 60%;
+    padding-top: 7%;
+}
+
+.collab-image-4 {
+    width: 60%;
+    padding-top: 7%;
+}
+
+.collab-image-5 {
+    width: 80%;
+    padding-left: 260px;
+    padding-top: 80px;
+}
+
+.collab-image-6 {
+    width: 60%;
+    padding-left: 80px;
+    padding-top: 80px;
+}
+
+.collab-image-7 {
+    width: 90%;
+    padding-right: 280px;
+    padding-top: 75px;
+}
+
+
+/* testimonial section */
+
+#Testimonials {
+    text-align: center;
+}
+
+.testimonial-heading {
+    color: #1864ff;
+    font-size: 60px;
+    font-family: 'inter', sans-serif;
+    padding: 10% 0% 1%;
+}
+
+div.testimonial-images {
+    padding: 5% 2%;
+    color: #6F8BC7;
+}
+
+.testimonial-image-1,
+.testimonial-image-2,
+.testimonial-image-3,
+.testimonial-image-4 {
+    width: 100px;
+    padding-bottom: 15px;
+}
+
+p.post {
+    color: #1864ff;
+}
+
+.testimonial-name {
+    font-weight: bold;
+}
+
+
+/* Branding Section */
+
+#Portfolio {
+    text-align: center;
+}
+
+.branding-heading {
+    color: #1864ff;
+    font-size: 70px;
+    font-family: 'inter', sans-serif;
+    padding: 4% 0;
+}
+
+.branding-heading-1 {
+    color: #FEA9A4;
+    font-size: 65px;
+    font-family: 'inter', sans-serif;
+}
+
+.branding-div {
+    padding: 20px 5px 10px;
+}
+
+.branding-image-1,
+.branding-image-2 {
+    width: 30%;
+}
+
+.branding-image-2 {
+    padding-top: 25px;
+}
+
+.branding-image-3 {
+    width: 40%;
+}
+
+.sub-heading {
+    color: #1864ff;
+    font-size: 40px;
+    font-family: 'inter', sans-serif;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.sub-para {
+    color: #6F8BC7;
+}
+
+div.subscription {
+    padding: 4% 29%;
+}
+
+h1.subscription {
+    color: #1864ff;
+    padding: 4% 0;
+}
+
+p.subscription {
+    padding: 3% 0;
+}
+
+
+/* Fotter Section */
+
+.fotter-headings,
+.media {
+    color: #1864ff;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.fotter-para {
+    color: #1864ff;
+    font-family: inherit;
+    text-align: left;
+    padding: 12px;
+}
+
+
+/* Credits */
+
+p.credits {
+    color: gray;
+    font-size: 13px;
+    font-weight: lighter;
+    text-align: left;
+    padding: 3% 0 0 12px;
+    margin-bottom: 0;
+}
+
+.fotter-headings:hover {
+    color: #FEA9A4;
+}
+
+.media-icons {
+    padding: 20px 15px;
+}
+
+.media-icons:hover {
+    color: #FEA9A4;
+}
+
+
+/* Media Quary */
+
+@media (max-width:991px) {
+    body {
+        padding: 0 2%;
+    }
+    .t-pics {
+        width: 80%;
+        padding: 15%;
+    }
+    .collab-image-7 {
+        width: 50%;
+        padding-right: 150px;
+        padding-top: 70px;
+    }
+    .branding-heading {
+        font-size: 60px;
+        padding: 10% 0;
+    }
+    .testimonial-heading {
+        font-size: 40px;
+    }
+    .branding-heading-1 {
+        font-size: 60px;
+    }
+    .testimonial-para {
+        font-size: 10px;
+    }
+    .testimonial-para-3 {
+        font-size: 9.8px;
+    }
+    .post {
+        font-size: 14px;
+    }
+    h1.subscription {
+        font-size: 42px;
+    }
+    p.subscription {
+        font-size: 17px;
+    }
+    p.spamfree {
+        font-size: 13px;
+    }
+    .branding-heading,
+    .branding-heading-1 {
+        font-size: 50px;
+    }
+    .media-icons {
+        padding: 2% 15% 0 2%;
+    }
+}
